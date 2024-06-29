@@ -4,7 +4,12 @@ import { Container, Group, ActionIcon, rem, Text } from "@mantine/core"
 import {
     IconBrandTwitter,
     IconBrandYoutube,
-    IconBrandInstagram
+    IconBrandInstagram,
+    IconBrandFacebook,
+    IconBrandLinkedin,
+    IconBrandGithub,
+    IconBrandSnapchat,
+    IconBrandTelegram
 } from "@tabler/icons-react"
 import classes from "./footer.module.css"
 
@@ -29,13 +34,31 @@ const Footer = () => {
                         />
                     </ActionIcon>
                     <ActionIcon size="lg" color="gray" variant="subtle">
-                        <IconBrandTwitter
+                        <IconBrandFacebook
                             style={{ width: rem(18), height: rem(18) }}
                             stroke={1.5}
                         />
                     </ActionIcon>
                     <ActionIcon size="lg" color="gray" variant="subtle">
-                        <IconBrandYoutube
+                        <IconBrandLinkedin
+                            style={{ width: rem(18), height: rem(18) }}
+                            stroke={1.5}
+                        />
+                    </ActionIcon>
+                    <ActionIcon size="lg" color="gray" variant="subtle">
+                        <IconBrandGithub
+                            style={{ width: rem(18), height: rem(18) }}
+                            stroke={1.5}
+                        />
+                    </ActionIcon>
+                    <ActionIcon size="lg" color="gray" variant="subtle">
+                        <IconBrandSnapchat
+                            style={{ width: rem(18), height: rem(18) }}
+                            stroke={1.5}
+                        />
+                    </ActionIcon>
+                    <ActionIcon size="lg" color="gray" variant="subtle">
+                        <IconBrandTelegram
                             style={{ width: rem(18), height: rem(18) }}
                             stroke={1.5}
                         />
