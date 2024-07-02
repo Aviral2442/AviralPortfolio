@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 import { Paper, Text, TextInput, Textarea, Button, Group, SimpleGrid } from "@mantine/core"
-import ContactIcons from "./ContactIcons"
 // import bg from "./bg.svg"
 import classes from "./contact.module.css"
+import ContactIcons from './contactIcons'
 
 const Contact = () => {
     return (
