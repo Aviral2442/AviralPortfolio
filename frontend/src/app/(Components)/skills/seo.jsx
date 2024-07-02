@@ -37,7 +37,7 @@ const Seo = () => {
                             search engine results pages (SERPs). This involves a variety of techniques and strategies 
                             designed to increase the quantity and quality of organic traffic to a site. SEO encompasses 
                             on-page elements like keyword optimization, content creation, and meta tags, as well as 
-                            off-page elements like backlinks and social signals. Effective SEO improves a site's 
+                            off-page elements like backlinks and social signals. Effective SEO improves a site&apos;s 
                             visibility, making it easier for potential visitors to find it through search engines like 
                             Google. It also involves technical aspects such as improving site speed, mobile-friendliness, 
                             and ensuring proper indexing by search engines.
