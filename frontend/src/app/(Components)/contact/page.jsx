@@ -7,8 +7,8 @@ import ContactIcons from './contactIcons'
 
 const Contact = () => {
     return (
-        <Paper justify="center" shadow="md" radius="lg">
-            <div className={classes.wrapper}>
+        <Paper justify="center" shadow="md" radius="lg"  >
+            <div className={classes.wrapper} p={100} >
                 <div
                     className={classes.contacts}
                     // style={{ backgroundImage: `url(${bg.src})` }}
