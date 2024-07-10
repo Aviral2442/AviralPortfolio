@@ -1,5 +1,5 @@
 'use client'
-import { Container, Flex, Grid, Paper, Text, ThemeIcon } from '@mantine/core'
+import { Container, Grid, Paper, Text, ThemeIcon } from '@mantine/core'
 import { IconColorSwatch } from '@tabler/icons-react'
 import React from 'react'
 import classes from './skills.module.css'
@@ -115,7 +115,7 @@ const Skills = () => {
                 </Grid.Col>
 
                 <Grid.Col span={9}>
-                    <Container>
+                    <Container py={"30"} size="responsive" className={classes.SkillsResponse} >
                         <Database />
                     </Container>
                 </Grid.Col>
